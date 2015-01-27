@@ -1,0 +1,116 @@
+tbody {
+margin:0px;padding:0px;
+width:100%;	box-shadow: 10px 10px 5px #888888;
+border:1px solid #000000;
+
+-moz-border-radius-bottomleft:14px;
+-webkit-border-bottom-left-radius:14px;
+border-bottom-left-radius:14px;
+
+-moz-border-radius-bottomright:14px;
+-webkit-border-bottom-right-radius:14px;
+border-bottom-right-radius:14px;
+
+-moz-border-radius-topright:14px;
+-webkit-border-top-right-radius:14px;
+border-top-right-radius:14px;
+
+-moz-border-radius-topleft:14px;
+-webkit-border-top-left-radius:14px;
+border-top-left-radius:14px;
+}
+table{
+margin:0px;padding:0px;
+}tr:last-child td:last-child {
+-moz-border-radius-bottomright:14px;
+-webkit-border-bottom-right-radius:14px;
+border-bottom-right-radius:14px;
+}
+table tr:first-child td:first-child {
+-moz-border-radius-topleft:14px;
+-webkit-border-top-left-radius:14px;
+border-top-left-radius:14px;
+}
+ table tr:first-child td:last-child {
+-moz-border-radius-topright:14px;
+-webkit-border-top-right-radius:14px;
+border-top-right-radius:14px;
+} tr:last-child td:first-child{
+-moz-border-radius-bottomleft:14px;
+-webkit-border-bottom-left-radius:14px;
+border-bottom-left-radius:14px;
+} tr:hover td{
+background-color:#ffffff;
+}
+ td{
+vertical-align:middle;
+
+background-color:#e5e5e5;
+border:1px solid #000000;
+border-width:0px 1px 1px 0px;
+text-align:left;
+padding:7px;
+font-size:10px;
+font-family:Arial;
+font-weight:normal;
+color:#000000;
+} tr:last-child td{
+border-width:0px 1px 0px 0px;
+} tr td:last-child{
+border-width:0px 0px 1px 0px;
+} tr:last-child td:last-child{
+border-width:0px 0px 0px 0px;
+}
+ tr:first-child td{
+	background:-o-linear-gradient(bottom, #4c4c4c 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4c4c4c), color-stop(1, #000000) );	background:-moz-linear-gradient( center top, #4c4c4c 5%, #000000 100% );	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#4c4c4c", endColorstr="#000000");	background: -o-linear-gradient(top,#4c4c4c,000000);
+background-color:#4c4c4c;
+border:0px solid #000000;
+text-align:center;
+border-width:0px 0px 1px 1px;
+font-size:14px;
+font-family:Arial;
+font-weight:bold;
+color:#ffffff;
+}
+ tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #4c4c4c 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4c4c4c), color-stop(1, #000000) );	background:-moz-linear-gradient( center top, #4c4c4c 5%, #000000 100% );	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#4c4c4c", endColorstr="#000000");	background: -o-linear-gradient(top,#4c4c4c,000000);
+background-color:#4c4c4c;
+}
+ tr:first-child td:first-child{
+border-width:0px 0px 1px 0px;
+}
+ tr:first-child td:last-child{
+border-width:0px 0px 1px 1px;
+}
+
+th{
+	background:-o-linear-gradient(bottom, #4c4c4c 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4c4c4c), color-stop(1, #000000) );	background:-moz-linear-gradient( center top, #4c4c4c 5%, #000000 100% );	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#4c4c4c", endColorstr="#000000");	background: -o-linear-gradient(top,#4c4c4c,000000);
+background-color:#4c4c4c;
+border:0px solid #000000;
+text-align:center;
+border-width:0px 0px 1px 1px;
+font-size:14px;
+font-family:Arial;
+font-weight:bold;
+color:#ffffff;
+}
+ th:first-child:hover {
+	background:-o-linear-gradient(bottom, #4c4c4c 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4c4c4c), color-stop(1, #000000) );	background:-moz-linear-gradient( center top, #4c4c4c 5%, #000000 100% );	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#4c4c4c", endColorstr="#000000");	background: -o-linear-gradient(top,#4c4c4c,000000);
+background-color:#4c4c4c;
+}
+ th:first-child{
+ 
+-moz-border-radius-topleft:14px;
+-webkit-border-top-left-radius:14px;
+border-top-left-radius:14px;
+border-width:0px 0px 1px 0px;
+}
+
+
+ th:last-child{
+ 
+-moz-border-radius-topright:14px;
+-webkit-border-top-right-radius:14px;
+border-top-right-radius:14px;
+border-width:0px 0px 1px 1px;
+}

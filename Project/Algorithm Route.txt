@@ -1,0 +1,41 @@
+Route ID	1 	Karachi-Hyderabad
+Route ID	2 	Hyderabad-Sukkur
+Route ID	3 	Sukkur-Moro
+Route ID	4 	Moro-Sialkot
+Route ID	5 	Sialkot-Lahore
+
+Possible Routes:
+
+Primitive:
+Karachi-Hyderabad
+Hyderabad-Sukkur
+Sukkur-Moro
+Moro-Sialkot
+Sialkot-Lahore
+
+Algorithm: 
+	Let arraylist1 be the list of all stops
+	Let P1 be the source city
+	Let Pz be the destination city
+	Get the ID of the starting Stop P1,P2 (Query and pop from arraylist1 and save ID in arraylist2) Update P1=P2 (If not found generate alert);
+	If P1==Pz then break
+	If arraylist1 is empty then generate alert
+	else Repeat Step 3
+
+Block 1
+Karachi-Sukkur SUM(1,2)
+Karachi-Moro SUM(1,2,3)
+Karachi-Sialkot SUM(1,2,3,4)
+Karachi-Lahore (1,2,3,4,5)
+
+Block 2
+Hyderabad-Moro SUM(2,3)
+Hyderabad-Sialkot SUM(2,3,4)
+Hyderabad-Lahore SUM(2,3,4,5)
+
+Block 3
+Sukkur-Sialkot SUM(3,4)
+Sukkur-Lahore SUM(3,4,5)
+
+Block 4
+Moro-Lahore SUM(4,5)

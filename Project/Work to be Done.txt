@@ -1,0 +1,22 @@
+update of table (reservations)
+
+--------------------------------
+reservations.php (change query)
+add dynamically generated routes, add the duration in the datetime and then insert.
+
+--------------------------------
+PRE-DEPLOYMENT WORK NEEDED:
+	-Session Variables									[DONE]
+	-hidden attributes display issues					[DONE]
+	-Fix logon.php										[DONE]
+	-js validation on all fields CLIENT					[DONE]
+	-js validation on all fields ADMIN					[DONE]
+	-basic css positioning								[DONE]
+	-Show Fare while reserving (user)					[DONE]
+	-Safae when updating route and show more stuff		[DONE]
+	-Search Filter for Viewing Reservations
+	
+--------------------------------
+EXTRAS:
+	-DropDown limitations
+

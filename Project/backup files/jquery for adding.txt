@@ -1,0 +1,10 @@
+ $(document).ready(function() {
+      $("#adds").click(function(event){
+          var to = $("#to").children(":selected").attr("id");
+		  var from = $("#from").children(":selected").attr("id");
+		  var duration = $("#duration").val();
+		  var fare = $("#fare").val();
+          $("#stage").load('jquery/insertstop.php', {"to":to, "from":from, "duration":duration, "fare":fare} );
+		  
+      });
+   });
